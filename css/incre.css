@@ -1,0 +1,77 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	height: 100%;
+	background-image: url("incre.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+	background-attachment: fixed;
+}
+header{
+	background-color: black;
+	height: 70px;
+}
+header img{
+	width: 90px;
+	margin-top: 5px;
+	margin-left: 30px;
+}
+a{
+	text-decoration-line: none;
+	color: white;
+	padding: 15px;
+}
+a:hover{
+	border-bottom: 3px solid white;
+	margin: 1.5px;
+}
+i{
+	padding: 5px;
+}
+.in{
+	width: 500px;
+	margin-top: 12em;
+	margin-left: 3em;
+}
+.play{
+	margin-left: -500px;
+	height: 50px;
+	width: 116px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-weight: lighter;
+	font-size:20px;
+}
+.play:hover{
+	background-color: lightskyblue;
+	cursor: pointer;
+}
+.trai{
+	margin-left: 220px;
+	width: 135px;
+	height: 50px;
+   background-color: black;
+   color: white;
+   border: 2px solid white;
+   border-radius: 5px;
+   font-weight: lighter;
+   font-size: 20px;
+}
+.trailer{
+	
+		margin-top: -50px;
+}
+.trai:hover{
+	background-color: lightpink;
+	cursor: pointer;
+}
+p{
+	color: white;
+	margin-left: 53px;
+	margin-top: 20px;
+	font-size: 20px;
+}

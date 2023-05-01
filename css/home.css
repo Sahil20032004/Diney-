@@ -1,0 +1,444 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	height: ;
+	background-image: url("home.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:0% 100% ;
+}
+header{
+	background-color: black;
+	height: 70px;	
+}
+header img{
+	      width: 90px;
+          margin-left: 30px;
+          margin-top: 5px;
+}
+ a{
+	text-decoration-line: none;
+	color: white;
+	padding: 15px;
+	display: inline-block;
+
+}
+a:hover{
+	border-bottom: 3px solid white;
+	margin: 1.5px;
+}
+i{
+  margin-right: 5px;    
+}
+.disney{
+	border-style:solid ;
+	border-width: 5px;
+	border-color:#36454F ;
+	border-radius: 10px;
+	width: 200px;
+	margin-top: 3em;
+	margin-left: 4em;
+	box-shadow: 0px 8px 30px;
+	transition: .2s;
+}
+.disney:hover{
+	border-color: white;
+	width: 210px;
+	cursor: pointer;
+	background: url("dv1.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.marvel{
+	border-style:solid ;
+	border-width: 5px;
+	border-color:#36454F ;
+	border-radius: 10px;
+	width: 200px;
+	margin-top: 3em;
+	margin-left: 4em;
+	box-shadow: 0px 8px 30px;
+	transition: .2s;
+}
+.marvel:hover{
+	border-color: white;
+	width: 210px;
+	cursor: pointer;
+	background-image: url("mr.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.national{
+	border-style: solid;
+	border-color: #36454F;
+	border-width: 5px;
+	width: 200px;
+	border-radius: 10px;
+	margin-top: 3em;
+	margin-left: 4em;
+	box-shadow: 0px 8px 30px;
+	transition: .2s;
+}
+.national:hover{
+	border-color: white;
+	width: 210px;
+	cursor: pointer;
+	background-image: url("ng.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.pixar{
+	border-style: solid;
+	border-width: 5px;
+	border-color: #36454F;
+	width: 200px;
+	margin-left: 4em;
+	margin-top: 3em;
+	border-radius: 10px;
+	box-shadow: 0px 8px 30px;
+	transition: .2s;
+}
+.pixar:hover{
+	border-color: white;
+	width: 210px;
+	cursor: pointer;
+	background-image: url("p.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.starwar{
+	border-style: solid;
+	border-color: #36454F;
+	border-width: 5px;
+	width: 200px;
+	margin-top: 3em;
+	margin-left: 4em;
+	border-radius: 10px;
+	box-shadow: 0px 8px 30px;
+	transition: .2s;
+}
+.starwar:hover{
+	border-color: white;
+	cursor: pointer;
+	width: 210px;
+	background-image: url("st.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+h4{
+	margin-left: 3.5em;
+	margin-top: 3em;
+  color: white;
+  font-weight:lighter;
+  font-size: 19px;
+  word-spacing: 5px;
+  text-shadow: 0px 0px 0px;
+}
+.au{
+	border-style: solid;
+	border-color: #36454F;
+	border-width: 3px;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	margin-left: 4em;
+	margin-top:-3em ;
+	box-shadow: 0px 8px 30px;
+	transition: .2s;
+}
+area:hover{
+	border-color: white;
+  cursor: pointer;
+	width: 310px;
+	height: 205px;
+}
+.incredibles{
+	border-style: solid;
+	border-color: #36454F;
+	border-width: 3px;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+  margin-top: 3em;
+  box-shadow: 0px 8px 30px;
+	margin-left: 4em;
+	transition: .2s;
+}
+.incredibles:hover{
+	border-color: white;
+	cursor: pointer
+	width: 310px;
+	height: 205px;
+}
+.inside{
+	border-style: solid;
+	border-color: #36454F;
+	border-width: 3px;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	margin-top: 3em;
+	margin-left: 4em;
+	box-shadow: 0px 8px 30px;
+	transition: .2s;
+}
+.inside:hover{
+	border-color: white;
+	cursor: pointer;
+	width: 310px;
+	height: 205px;
+}
+.bao{
+	border-style: solid;
+	border-color: #36454F;
+	border-width: 3px;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+  box-shadow: 0px 8px 30px;
+  margin-left: 4em;
+  margin-top: 3em;
+  transition: .2s;
+}
+.bao:hover{
+	border-color: white;
+	cursor: pointer;
+	width: 310px;
+	height: 205px;
+}
+.music{
+	border-style: solid;
+	border-color: #36454F;
+	border-width: 3px;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	margin-top: 3em;
+	margin-left: 4em;
+	box-shadow: 0px 8px 30px;
+	transition: .2s;
+}
+.music:hover{
+	border-color: white;
+	width: 310px;
+	height: 205px;
+	cursor: pointer;
+}
+.raya{
+	border-style: solid;
+	border-color: #36454F;
+	border-width: 3px;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	margin-left: 4em;
+	margin-top: 3em;
+	box-shadow: 0px 8px 30px;
+	transition: .2s;
+}
+.raya:hover{
+	border-color: white;
+	cursor: pointer;
+	width: 310px;
+	height: 205px;
+}
+.falcon{
+	border-style: solid;
+	border-color: #36454F;
+	border-width: 3px;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	margin-left: 4em;
+	margin-top: 3em;
+	box-shadow: 0px 8px 30px;
+	transition: .2s;
+}
+.falcon:hover{
+	border-color: white;
+	cursor: pointer;
+	width: 310px;
+	height: 205px;
+}
+.garf{
+	border-style: solid;
+	border-color: #36454F;
+	border-width: 3px;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	margin-left: 4em;
+	margin-top: 3em;
+	box-shadow: 0px 8px 30px;
+	transition: .2s;
+}
+.garf:hover{
+	border-color: white;
+	cursor: pointer;
+	width: 310px;
+	height: 205px;
+}
+.burrow{
+	border-style: solid;
+	border-color: #36454F;
+	border-width: 3px;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	margin-left: 4em;
+	margin-top: 3em;
+	box-shadow: 0px 8px 30px;
+	transition: .2s;
+}
+.burrow:hover{
+	border-color: white;
+	cursor: pointer;
+	width: 310px;
+	height: 205px;
+}
+.assembled{
+	border-style: solid;
+	border-color: #36454F;
+	border-width: 3px;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	margin-left: 4em;
+	margin-top: 3em;
+	box-shadow: 0px 8px 30px;
+	transition: .2s;
+}
+.assembled:hover{
+	border-color: white;
+	cursor: pointer;
+	height: 205px;
+	width: 310px;
+}
+.soul{
+	border-style: solid;
+	border-color: #36454F;
+	border-width: 3px;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	margin-left: 4em;
+	margin-top: 3em;
+	box-shadow: 0px 8px 30px;
+	transition: .2s
+}
+.soul:hover{
+	border-color: white;
+	cursor: pointer;
+	height: 205px;
+	width: 310px;
+}
+.legend{
+	border-style: solid;
+	border-color: #36454F;
+	border-width: 3px;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	margin-top: 3em;
+	margin-left: 4em;
+	box-shadow: 0px 8px 30px;
+	transition: .2s;
+}
+.legend:hover{
+	border-color: white;
+	cursor: pointer;
+	width: 310px;
+	height: 205px;
+}
+.simpson{
+      border-style: solid;
+      border-color: #36454F;
+      border-width: 3px;
+      border-radius: 10px;
+      width: 300px;
+      height: 200px;
+      margin-top: 3em;
+      margin-left: 4em;
+      box-shadow: 0px 8px 30px;
+     transition: .2s;
+}
+.simpson:hover{
+	border-color: white;
+	cursor: pointer;
+	width: 310px;
+	height: 205px;
+}
+.micky{
+	border-style: solid;
+	border-color: #36454F;
+	border-width: 3px;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	margin-top: 3em;
+	margin-left: 4em;
+	box-shadow: 0px 8px 30px;
+	transition: .2s;
+}
+.micky:hover{
+	border-color: white;
+	cursor: pointer;
+	width: 310px;
+	height: 205px;
+}
+.moana{
+	border-style: solid;
+	border-color: #36454F;
+	border-width: 3px;
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	margin-top: 3em;
+	margin-left: 4em;
+	box-shadow: 0px 8px 30px;
+	transition: .2s;
+}
+.moana:hover{
+	border-color: white;
+	cursor: pointer;
+	width: 310px;
+	height: 205px;
+}
+.tangled{
+	border-style: solid;
+	border-width: 3px;
+	border-color: #36454F;
+	border-radius: 10px;
+	margin-top: 3em;
+	margin-left: 4em;
+	width: 300px;
+	height: 200px;
+  transition: .2s;
+}
+.tangled:hover{
+	border-color: white;
+	cursor: pointer;
+	width: 310px;
+	height: 205px;
+}
+@media screen and (max-width: 700px){
+	a{
+		visibility: hidden;
+	}
+	
+}
+@media screen and (max-width: 700px){
+	html,body{
+		height: 100%;
+		background-image: url("home.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+}

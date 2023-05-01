@@ -1,0 +1,78 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	height: 100%;
+	background-image: url("aunt.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	background-attachment: fixed;
+}
+header{
+     background-color: black;
+     height: 70px;
+}
+header img{
+	width: 90px;
+	margin-top: 5px;
+	margin-left: 30px;
+}
+a{
+	text-decoration-line: none;
+	color: white;
+	padding: 15px;
+}
+a:hover{
+	border-bottom: 3px solid white;
+	margin: 1.5px;
+}
+i{
+	padding: 5px;
+}
+.au{
+	width: 518px;
+	margin-top: 130px;
+	margin-left: 50px;
+}
+.play{
+	margin-left: 50px;
+	width: 116px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 2px;
+	font-size: 20px;
+	font-weight: thin;
+}
+.play:hover{
+      background-color: cyan;
+      cursor: pointer;
+}
+.trai{
+	margin-left:13em;
+	margin-top:-3.2em;
+}
+.trailer{
+	width: 140px;
+	height: 50px;
+	background-color: black;
+	border: 2px solid white;
+	border-radius: 3px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	padding: ;
+}
+.trailer:hover{
+	background-color: lightskyblue;
+}
+p{
+	color: white;
+	margin-left: 50px;
+	margin-top: 20px;
+	font-size: 20px ;
+}
+.p{
+	margin-top: 15px;
+}
